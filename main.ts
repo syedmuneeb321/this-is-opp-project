@@ -29,7 +29,7 @@ class MainProgram{
                 message:"Type 1 if you like to talk to others and type 2 if you would rather keep to yourself:",
                 validate:(value)=>{
                     if(isNaN(value)){
-                        return 'please enter Integar Number:'
+                        return 'please enter Integer Number:'
                     };
                     return true;
                 },
@@ -49,7 +49,7 @@ class MainProgram{
                     if(isNaN(value)){
                         return true;
                     }else{
-                        return "please enter a name not number: ";
+                        return "Enter a right Name:";
                     };
                 },
             },
