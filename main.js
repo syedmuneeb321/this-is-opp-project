@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { Person } from "./person.js";
 import Student from "./student.js";
 import inquirer from 'inquirer';
